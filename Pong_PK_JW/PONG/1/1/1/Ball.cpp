@@ -5,7 +5,7 @@ Ball::Ball(float t_x, float t_y) : x(t_x),y(t_y)
 {
 	shape.setPosition(t_x, t_y);
 	shape.setRadius(ballRadius);
-	shape.setFillColor(Color::Green);
+	shape.setFillColor(Color::Red);
 	shape.setOrigin(ballRadius, ballRadius);
 
 
